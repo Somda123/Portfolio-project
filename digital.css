@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.watch {
+    height: 20rem;
+    width: 30rem;
+    background-color: #6edcde;
+    border-radius: 5%;
+     box-shadow:10px 20px 20px   rgb(248, 135, 94);
+    /* text-shadow: #8a0d0d; */
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+}
+H3{
+    text-decoration-color: #45c02a;
+
+}
+.date
+{
+    
+    background-color: #6edcde;
+
+    margin: 21em;
+    background-size: 10em;
+    height: 10em;
+    width: 10em;
+    box-shadow: 10px 20px 20px red;
+    animation: slider 5s linear infinite;
+    
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 12px;
+    color: blue;
+    width: 30%;
+     text-align: center;  
+     text-transform: uppercase;
+     animation: animate 5s linear infinite; 
+     background-image: url("digitaltheme.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     image-rendering: auto;
+    filter: hue-rotate(90deg);
+}
+
+.date 
+{
+    /* border: 5px rgb(234, 83, 83) solid; */
+    text-align: center;
+     margin: 6rem 12rem ;
+ height: 20rem;
+ width: 30rem;
+ background-size: 100% 100%;
+ box-shadow: 20% 20% 10% rgb(17, 10, 209) ;
+ border-radius: 5%;
+ animation: slider 1s linear infinite;
+
+}
+@keyframes slider
+{
+    0%
+    {
+        background-image: url ("OIP (2).jpeg")
+        
+    }
+    20%
+    {
+        background-image: url("OIP.jpeg");
+    }
+    30%
+    {
+        background-image: url("OIP (2).jpeg");
+    }
+    40%
+    {
+        background-image: url("techthumbsmartphone.jpg");
+    }
+    50%
+    {
+        background-image: url("sddefault.jpg");
+    }
+} 
+
+.time {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 1.2rem;
+    
+    /* margin-top: 3%; */
+    /* margin-top: 5%; */
+    /* text-align: center; */
+}
